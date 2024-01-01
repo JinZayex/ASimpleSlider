@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+</head>
+<body style="text-align: center; background-color:burlywood; margin:0; position:0;">
+
+    <header style="background-color:rgb(131, 131, 76);">
+        <h1>Mosaici</h1>
+    </header>
+
+    <div id="slider">
+        <img src="img/Bacco.jpg" alt="" width="300" height="300">
+        <img src="img/Giustiniano.jpeg" alt="" width="300" height="300">
+        <img src="img/PavimentazioneGeometrica.jpg" alt="" width="300" height="300">
+    </div>
+    
+    <div id="description">
+        Bacco (riproduzione romana)
+    </div>
+    
+    <div id="currentImg">
+        0/0
+    </div>
+    
+    <button id="prevBtn" onclick="fun('prev')">Indietro</button>
+    <button>
+        <a href="./page2.html?imgId=0" id="anchor">Select</a>
+    </button>
+
+    <button id="nextBtn" onclick="fun('next')">Avanti</button>
+
+    <script src="objects.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>

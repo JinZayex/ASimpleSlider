@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    table, th, td {
+        border:1px solid black;
+    }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color:burlywood;">
+
+    <table style="background-color:azure;">
+        <tr>
+          <th>Name</th>
+          <th>Price</th>
+          <th>Country</th>
+          <th>Amount</th>
+        </tr>
+        <tr>
+          <td id="name">...</td>
+          <td id="price">...</td>
+          <td id="country"></td>
+          <td id="amount">1</td>
+        </tr>
+      </table>
+    
+      <button id="addBtn" onclick="modifyAmount('add')">+</button>
+      <button id="rmvBtn" onclick="modifyAmount('rmv')">-</button>
+      
+      <button onclick="sendEmail()">Acquista</button>
+
+    <script src="script2.js"></script>
+
+</body>
+</html>
